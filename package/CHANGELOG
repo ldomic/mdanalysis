@@ -13,13 +13,14 @@ The rules for this file:
   * release numbers follow "Semantic Versioning" http://semver.org
 
 ------------------------------------------------------------------------------
-??/??/?? IAlibay
+??/??/?? IAlibay, ldomic
 
  * 2.1.0
 
 Fixes
 
 Enhancements
+  * Added clock diagrams to visualization modules
 
 Changes
   * Dropped python 3.6 support and raised minimum numpy version to 1.18.0
