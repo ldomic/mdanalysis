@@ -210,6 +210,7 @@ __all__ = [
     "PDB_elements",  # PDB file with elements
     "SURFACE_PDB",  # 111 FCC lattice topology for NSGrid bug #2345
     "SURFACE_TRR",  # full precision coordinates for NSGrid bug #2345
+    "ALA_191", "GLY_932", "DSPC_None",  # lintools clock diagrams
 ]
 
 from pkg_resources import resource_filename
@@ -578,6 +579,10 @@ PDBX = resource_filename(__name__, "data/4x8u.pdbx")
 SURFACE_PDB = resource_filename(__name__, 'data/surface.pdb.bz2')
 SURFACE_TRR = resource_filename(__name__, 'data/surface.trr')
 
+# lintools
+ALA_191 = resource_filename(__name__, 'data/lintools/ALA_191.svg')
+GLY_932 = resource_filename(__name__, 'data/lintools/GLY_932.svg')
+DSPC_None = resource_filename(__name__, 'data/lintools/DSPC_None.svg')
 
 # This should be the last line: clean up namespace
 del resource_filename
